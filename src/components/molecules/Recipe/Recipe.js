@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../../atoms/Image/Image';
-
+import Video from '../../atoms/Video/Video';
 const Recipe = (props) => {
     return ( 
     <div className="card" >
@@ -31,6 +31,14 @@ const Recipe = (props) => {
                         <div className="card-text">
                             <p>{props.recipe.instructions}</p>
                         </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <div className="card-text">
+                            <p>Video recipe</p>
+                        </div>
+                        <Video video={props.recipe.mealVideo}></Video>
                     </div>
                 </div>
             </div>

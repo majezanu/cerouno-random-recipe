@@ -1,3 +1,9 @@
+### Recipe Random Generator
+Esta es una aplicación web que permite obtener una receta al azar
+
+### Netlify
+Se puede consultar el sitio en la siguiente url: (https://loving-visvesvaraya-45e851.netlify.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
